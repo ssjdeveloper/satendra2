@@ -89,9 +89,9 @@
 }
 
 .btn-sm {
-  font-size: 14px;
-  padding: 10px 19px;
-  margin: 12px 0;
+  font-size: 10px;
+  padding: 7px 13px;
+  margin: 10px 0;
 }
 
 .btn:hover {
@@ -141,3 +141,85 @@
   margin: 3px 0;
 }
 /* contect me style end */
+
+
+/* this line start style of skills */
+.blogItem{
+  margin: 20px;
+  font-family: "Fira Sans", sans-serif;
+
+}
+.blogContainer h1{
+  font-family: "Fira Sans", sans-serif;
+  margin: 23px;
+  
+}
+.blogItem h2{
+   
+}
+.blogItem p{
+  font-family: "Source Code Pro", monospace;
+  
+}
+
+/* this line end style of skills */
+
+/* this line start into css  */
+.intro h2{
+  font-family: "Fira Sans", sans-serif;
+  margin: 12px;
+  
+}
+.intro p{
+  font-family: "Source Code Pro", monospace;
+  margin: 12px;
+
+}
+.skillContainer{
+  padding: 12px;
+}
+.skillItem{
+display: flex;
+align-items: center;
+font-family: "Source Code Pro", monospace;
+font-weight: 900;
+
+}
+
+.skill{
+  width: 265px;
+  height: 6px;
+  background-color: red;
+  border: 2px solid black;
+}
+
+.wid-100{
+  width: 265px;
+  background-color: rgb(33, 209, 33);
+}
+.wid-75{
+ width: 200px;
+ background-color: #ffff01;
+}
+.wid-50{
+  width: 135px;
+  background-color: blue;
+}
+.wid-25{
+  width: 70px;
+  background-color: red;
+}
+/* this line end into css  */
+
+/* this line start meadia query using responsive */
+@media (max-width: 920px) {
+  /* *{
+    background-color: red;
+  } */
+  .sidebar{
+    transform: translate(-443px, 0);
+    position: absolute;
+  }
+  
+}
+/* this line end meadia query using responsive */
